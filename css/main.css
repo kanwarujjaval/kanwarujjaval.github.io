@@ -14,12 +14,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #E2887E;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #E2887E;
     text-shadow: none;
 }
 
@@ -60,34 +60,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #2c3e50;
+    position: relative;
+}
 
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
+h1 {
+    color: #fff;
+}
 
+h2 {
+    color: #C0D1E2;
+}
 
+.main {
+    float: left;
+    max-width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
+.about{
+    padding: 5% 5% 5% 0;
+    color:#fff;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
 }
 
 /* ==========================================================================
@@ -101,12 +112,12 @@ textarea {
     *text-indent: -9999px;
 }
 
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
+    .ir:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
 
 .hidden {
     display: none !important;
@@ -124,15 +135,15 @@ textarea {
     width: 1px;
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
 
 .invisible {
     visibility: hidden;
@@ -169,9 +180,9 @@ textarea {
         text-decoration: underline;
     }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
 
     abbr[title]:after {
         content: " (" attr(title) ")";
