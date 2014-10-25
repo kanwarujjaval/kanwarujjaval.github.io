@@ -18,6 +18,10 @@ html {
     text-shadow: none;
 }
 
+a, a:active, a:focus {
+outline: none;
+}
+
 ::selection {
     background: #E2887E;
     text-shadow: none;
@@ -104,6 +108,21 @@ h3 {
 section{
     padding: 5% 5% 0 0;
     color: #fff;
+}
+
+section a{
+    color:#C0D1E2;
+    text-decoration:none;
+    padding-right:10px;
+    transition: 0.18s linear;
+}
+
+section a:hover{
+    color:#fff;
+    transition: 0.18s linear;
+}
+.fa {
+font-size:24px !important;
 }
 /* ==========================================================================
    Media Queries
