@@ -79,6 +79,10 @@ h2 {
     color: #C0D1E2;
 }
 
+h3 {
+    color: #C0D1E2;
+}
+
 .main {
     float: left;
     max-width: 90%;
@@ -97,8 +101,8 @@ h2 {
     position: relative;
 }
 
-.about {
-    padding: 5% 5% 5% 0;
+section{
+    padding: 5% 5% 0 0;
     color: #fff;
 }
 /* ==========================================================================
