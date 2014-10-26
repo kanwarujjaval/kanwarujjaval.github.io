@@ -19,7 +19,7 @@ html {
 }
 
 a, a:active, a:focus {
-outline: none;
+    outline: none;
 }
 
 ::selection {
@@ -105,24 +105,25 @@ h3 {
     position: relative;
 }
 
-section{
-    padding: 5% 5% 0 0;
+section {
+    padding: 5px 0 0 0;
     color: #fff;
 }
 
-section a{
-    color:#C0D1E2;
-    text-decoration:none;
-    padding-right:10px;
-    transition: 0.18s linear;
-}
+    section a {
+        color: #C0D1E2;
+        text-decoration: none;
+        padding-right: 10px;
+        transition: 0.18s linear;
+    }
 
-section a:hover{
-    color:#fff;
-    transition: 0.18s linear;
-}
+        section a:hover {
+            color: #fff;
+            transition: 0.18s linear;
+        }
+
 .fa {
-font-size:24px !important;
+    font-size: 24px !important;
 }
 /* ==========================================================================
    Media Queries
